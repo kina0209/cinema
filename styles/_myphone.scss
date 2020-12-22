@@ -2,7 +2,7 @@
 
     body{
         box-sizing: border-box;
-        overflow-x: hidden;
+        background-color: #16151D;
     }
     .container{
         width: 100%;
@@ -14,6 +14,7 @@
         // background-image: url('../images/pexels-jae-park-3954429.jpg');
         // background-color: linear-gradient(180deg, rgba(22, 21, 29, 0) 0%, rgba(22, 21, 29, 0.8) 48.31%, #16151D 100%);
         .header_top{
+            padding: 20px 20px;
             &__between{
                 display: none;
             }

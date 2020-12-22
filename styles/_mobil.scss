@@ -1,8 +1,8 @@
 @media screen and (max-width:375px){
 
     body{
+        background-color: #16151D;
         box-sizing: border-box;
-        overflow-x: hidden;
     }
     .container{
         width: 100%;
@@ -11,9 +11,8 @@
         margin: 0 auto;
     }
     .header{
-        // background-image: url('../images/pexels-jae-park-3954429.jpg');
-        // background-color: linear-gradient(180deg, rgba(22, 21, 29, 0) 0%, rgba(22, 21, 29, 0.8) 48.31%, #16151D 100%);
         .header_top{
+            padding: 20px;
             &__between{
                 display: none;
             }
